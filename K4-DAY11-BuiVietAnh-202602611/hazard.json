@@ -1,0 +1,41 @@
+{
+ "format": "avsim-studio/1",
+ "params": {
+  "cutT0": 6.5,
+  "cutDur": 2.4,
+  "cutV": 15,
+  "pedT0": 11,
+  "pedV": 1.45,
+  "busGo": 17,
+  "cutDs": -4,
+  "tgT": 0.9,
+  "mu": 0.8,
+  "cutGap": 12,
+  "cutBrake": 0,
+  "pedGap": 4.5,
+  "pedLook": 1,
+  "civil": true
+ },
+ "policy": {},
+ "hazards": [
+  {
+   "x": 53,
+   "lane": "E2",
+   "d": 0.1,
+   "v": 7,
+   "swerve": 2.85,
+   "swDur": 2.2,
+   "t0": 5.2,
+   "trig": 15,
+   "type": "bike"
+  }
+ ],
+ "ego": "planner",
+ "space": {
+  "h0_swerve": [2.6, 2.85],
+  "h0_swDur": [2.2, 2.5],
+  "h0_trig": [12, 18]
+ },
+ "exposure": 1,
+ "why": "Xe đạp tránh xe bus. Khoảng độ lạng 2,6–2,85 m, thời gian 2,2–2,5 giây được chọn quanh cảnh đã dựng (2,85 m trong 2,2 giây); tổ hợp lạng mạnh nhất và nhanh nhất có gia tốc ngang khoảng 2,91 m/s², dưới giới hạn 3 m/s². Khoảng kích hoạt 12–18 m là biến thiên ±3 m quanh giá trị 15 m của cảnh để kiểm tra độ nhạy với thời điểm xảy ra. Exposure = 1 là giả định một lần mỗi chuyến, không phải tần suất đo được."
+}
