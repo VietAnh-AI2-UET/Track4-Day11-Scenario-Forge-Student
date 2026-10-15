@@ -622,7 +622,7 @@
   "mssv": "202602611",
   "town": "A",
   "quick": false,
-  "step": "fix",
+  "step": "all",
   "salted": false,
   "budgets": {
    "replay_n": 400,

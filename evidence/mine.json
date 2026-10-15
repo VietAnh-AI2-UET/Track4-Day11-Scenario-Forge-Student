@@ -29,7 +29,7 @@
  },
  "world": "town",
  "exposure": 1,
- "why": "Có thể xe đạp lạng ra để tránh vật cản như xe bus",
+ "why": "Xe đạp tránh xe bus. Khoảng độ lạng 2,6–2,85 m, thời gian 2,2–2,5 giây được chọn quanh cảnh đã dựng (2,85 m trong 2,2 giây); tổ hợp lạng mạnh nhất và nhanh nhất có gia tốc ngang khoảng 2,91 m/s², dưới giới hạn 3 m/s². Khoảng kích hoạt 12–18 m là biến thiên ±3 m quanh giá trị 15 m của cảnh để kiểm tra độ nhạy với thời điểm xảy ra. Exposure = 1 là giả định một lần mỗi chuyến, không phải tần suất đo được.",
  "exact": {
   "planner": []
  },
@@ -753,7 +753,7 @@
   "mssv": "202602611",
   "town": "A",
   "quick": false,
-  "step": "mine",
+  "step": "all",
   "salted": false,
   "budgets": {
    "replay_n": 400,
